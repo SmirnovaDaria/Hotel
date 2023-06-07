@@ -20,9 +20,11 @@ namespace Hotel
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static Frame MainFrame;
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame = MyFrame;
         }
     }
 }
